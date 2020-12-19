@@ -1,1 +1,21 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://raw.githubusercontent.com/ristovkiril/WBS/main/KirilRistov.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/ristovkiril/WBS/main/KirilRistov.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/ristovkiril/WBS/main/KirilRistov.ttl#me> .
+
+<https://raw.githubusercontent.com/ristovkiril/WBS/main/KirilRistov.ttl#me> a foaf:Person ;
+    foaf:family_name "Ristov" ;
+    foaf:givenname "Kiril" ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StojanovVenko/WBS_FOAF_profile/main/foaf.ttl> ;
+            foaf:mbox_sha1sum "6481627bdd552ce22a3b87a6eb52ff05275749af" ;
+            foaf:name "Venko" ] ;
+    foaf:mbox_sha1sum "0daa7a391062d6f626471ea44e9b517de596d5dd" ;
+    foaf:name "Kiril Ristov" ;
+    foaf:phone <tel:+389-70-581-901> ;
+    foaf:schoolHomepage <https://finki.ukim.mk/> .
