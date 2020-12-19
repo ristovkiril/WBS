@@ -15,7 +15,7 @@
             rdfs:seeAlso <https://raw.githubusercontent.com/StojanovVenko/WBS_FOAF_profile/main/foaf.ttl> ;
             foaf:mbox_sha1sum "6481627bdd552ce22a3b87a6eb52ff05275749af" ;
             foaf:name "Venko" ] ;
-    foaf:mbox_sha1sum "0daa7a391062d6f626471ea44e9b517de596d5dd" ;
+    foaf:mbox_sha1sum "432960a4f72c14ad4adc360f5223f15f54dff7b9" ;
     foaf:name "Kiril Ristov" ;
     foaf:phone <tel:+389-70-581-901> ;
     foaf:schoolHomepage <https://finki.ukim.mk/> .
